@@ -1,0 +1,37 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    #   数据源基本配置
+    username:
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:
+  redis:
+    host:
+    password:
+    database: 1
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+mybatis:
+  # 指定全局配置文件位置
+  config-location: classpath:mybatis-config.xml
+
+mapper:
+  mappers:
+    - tk.mybatis.mapper.common.Mapper
+
+logging:
+  level:
+    cn.lsz.gongzhonghao.hajimiemasidie: debug
+  file:
+    path: /project/hajimiemasidie
+
+wx:
+  token:
+  app_id:
+  app_secrect:
+  wechat_id:

@@ -1,0 +1,30 @@
+1:游戏
+    1:成语接龙(常规)
+        1:简单:chengyuService.chengyuNormalEasy
+        2:困难:chengyuService.chengyuNormalHard
+        8:排行榜:chengyuScoreService.chengyuNormalRankingList
+        9:游戏规则:chengyuService.chengyuNormaRule
+        0:返回:back
+    2:成语接龙(同音字)
+        1:简单:chengyuService.chengyuSamePronunciationEasy
+        2:困难:chengyuService.chengyuSamePronunciationHard
+        8:排行榜:chengyuScoreService.chengyuSamePronunciationRankingList
+        9:游戏规则:chengyuService.chengyuSamePronunciationRule
+        0:返回:back
+    3:成语接龙(近音字)
+        1:简单:chengyuService.chengyuLikePronunciationEasy
+        2:困难:chengyuService.chengyuLikePronunciationHard
+        8:排行榜:chengyuScoreService.chengyuLikePronunciationRankingList
+        9:游戏规则:chengyuService.chengyuLikePronunciationRule
+        0:返回:back
+    0:返回:back
+2:测试
+    1:测试:userService.hello
+    0:返回:back
+3:表情包
+    1:下一张:emojiService.nextPage
+    9:使用方法:emojiService.emojiRule
+    0:返回:back
+9:项目开源
+    0:即将开放:back
+0:返回:back

@@ -29656,17 +29656,4 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('otmLas3MI6dWgzva7D7fPzQNGp-g', '2020-03-24 21:37:27');
-INSERT INTO `user` VALUES ('otmLas44I4VyyJEyf8ISNBn1gkx0', '2020-03-24 15:14:55');
-INSERT INTO `user` VALUES ('otmLas5pXUcfSyzsZTS42EP94GBM', '2020-03-24 18:57:55');
-INSERT INTO `user` VALUES ('otmLas6arkyvuEgxwUjOHg9ortF0', '2020-03-24 18:41:56');
-INSERT INTO `user` VALUES ('otmLas6qRYoBAH_UGRbuBzOO1DVo', '2020-03-24 18:48:28');
-INSERT INTO `user` VALUES ('otmLas7P7gSspf0BKyN9BFVk8S2g', '2020-03-24 19:44:15');
-INSERT INTO `user` VALUES ('otmLas7T9pn_76In2Guq8ADhzNVU', '2020-03-24 21:19:31');
-INSERT INTO `user` VALUES ('otmLas816RwdfzAicgVajDFvSX1w', '2020-03-24 20:52:19');
-INSERT INTO `user` VALUES ('otmLas8JD-1tnyNaqMztFxzlOj2o', '2020-03-24 16:14:50');
-INSERT INTO `user` VALUES ('otmLas8y4lSOoi129SnfPGQS9qss', '2020-03-24 22:42:07');
-INSERT INTO `user` VALUES ('otmLas9tlELdobo_3nenD_5rGM_c', '2020-03-24 18:59:43');
-INSERT INTO `user` VALUES ('otmLaswbXihTIMGIKro8FT_mg3-U', '2020-03-24 18:26:21');
-INSERT INTO `user` VALUES ('otmLaswnLwby2mvI1xpoJ7K0a3Ag', '2020-03-24 20:00:59');
-INSERT INTO `user` VALUES ('otmLasx7qQMj4MV2S5UNC3sZE4uA', '2020-03-25 08:53:05');
+

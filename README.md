@@ -1,5 +1,5 @@
 # hajimiemasidie
- 成语接龙—哈吉咩马斯跌公众号
+个人成语接龙公众号-哈吉咩马斯跌（已停止）
 
 环境：
  springBoot + mysql + redis

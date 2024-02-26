@@ -11,6 +11,7 @@
  项目第一次运行初始化成语缓存会比较久
  本地测试链接 localhost:80/test?text=1
 
- ![648748030_93690cfb8d97d4a45c3e8a881848d18d](https://github.com/996lsz/hajimiemasidie/assets/49548423/e502f625-ed58-4373-87da-e4046c7a68b2)
+
+![qrcode_for_gh_c0d77784884b_258](https://github.com/996lsz/hajimiemasidie/assets/49548423/ebed2263-5786-4fb7-a64e-db692423fe59)
 
 ![Screenshot_20240226_224337](https://github.com/996lsz/hajimiemasidie/assets/49548423/98e7c261-b1dc-426c-90c5-aa3d4e6b65d8)

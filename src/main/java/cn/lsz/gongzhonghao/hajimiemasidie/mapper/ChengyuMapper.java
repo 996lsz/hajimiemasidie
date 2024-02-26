@@ -9,6 +9,7 @@ import tk.mybatis.mapper.common.Mapper;
  * @author LSZ 2020/03/15 14:06
  * @contact 648748030@qq.com
  */
+@org.apache.ibatis.annotations.Mapper
 public interface ChengyuMapper extends Mapper<Chengyu> {
 
 }

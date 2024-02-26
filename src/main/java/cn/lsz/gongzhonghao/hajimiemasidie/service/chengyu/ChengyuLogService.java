@@ -111,7 +111,7 @@ public class ChengyuLogService extends MyBaseService<ChengyuLog> implements Prox
             }
             duyin = finalInitialDuyin + duyin.substring(duyin.indexOf(","));
         }
-        result = new Chengyu(chengyu, duyin);
+        result = new Chengyu(chengyu, duyin, 2);
         return result;
     }
 

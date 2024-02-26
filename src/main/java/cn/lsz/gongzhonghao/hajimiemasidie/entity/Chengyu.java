@@ -38,12 +38,6 @@ public class Chengyu extends BaseInfo {
         this.chengyu = chengyu;
     }
 
-    public Chengyu(String chengyu, String spell){
-        this.chengyu = chengyu;
-        this.spell = spell;
-        this.level = 2;
-    }
-
     public Chengyu(String chengyu, String spell, Integer level){
         this.chengyu = chengyu;
         this.spell = spell;

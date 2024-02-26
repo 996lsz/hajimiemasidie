@@ -1,5 +1,6 @@
 package cn.lsz.gongzhonghao.hajimiemasidie.controller;
 
+import cn.lsz.gongzhonghao.hajimiemasidie.constant.AppConstant;
 import cn.lsz.gongzhonghao.hajimiemasidie.service.WxMenuService;
 import cn.lsz.gongzhonghao.hajimiemasidie.util.SignUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -36,7 +37,7 @@ public class TestController {
      * @param text
      * @return
      */
-    @PostMapping(value = "")
+    @GetMapping(value = "")
     @ResponseBody
     public String mainMenu(@RequestParam("text") String text) {
 

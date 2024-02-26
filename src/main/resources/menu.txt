@@ -18,13 +18,9 @@
         9:游戏规则:chengyuService.chengyuLikePronunciationRule
         0:返回:back
     0:返回:back
-2:测试
-    1:测试:userService.hello
-    0:返回:back
-3:表情包
-    1:下一张:emojiService.nextPage
-    9:使用方法:emojiService.emojiRule
-    0:返回:back
+2:表情包
+    0:尚未实现:back
 9:项目开源
-    0:即将开放:back
+    1:代码地址:projectService.sourceCode
+    0:返回:back
 0:返回:back

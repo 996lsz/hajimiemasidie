@@ -96,8 +96,28 @@ public class AppConstant {
 
 
     @Value("${wx.token}")
-    private void setTOKEN(String TOKEN) {
-        AppConstant.TOKEN = TOKEN;
+    private void setToken(String token) {
+        AppConstant.TOKEN = token;
+    }
+    @Value("${wx.app-id}")
+    private void setAppId(String appId) {
+        AppConstant.APP_ID = appId;
+    }
+
+    @Value("${wx.app-secrect}")
+    private void setAppSecrect(String appSecrect) {
+        AppConstant.APP_SECRECT = appSecrect;
+    }
+
+
+    @Value("${wx.wechat-id}")
+    private void setWechatId(String wechatId) {
+        AppConstant.WECHAT_ID = wechatId;
+    }
+
+
+    public static String getAppSecrect() {
+        return APP_SECRECT;
     }
 
     public static String getToken(){
@@ -108,26 +128,9 @@ public class AppConstant {
         return APP_ID;
     }
 
-    @Value("${wx.app_id}")
-    private static void setAppId(String appId) {
-        APP_ID = appId;
-    }
-
-    public static String getAppSecrect() {
-        return APP_SECRECT;
-    }
-
-    @Value("${wx.app_secrect}")
-    private static void setAppSecrect(String appSecrect) {
-        APP_SECRECT = appSecrect;
-    }
 
     public static String getWechatId() {
         return WECHAT_ID;
     }
 
-    @Value("${wx.wechat_id}")
-    private static void setWechatId(String wechatId) {
-        WECHAT_ID = wechatId;
-    }
 }

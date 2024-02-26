@@ -351,8 +351,10 @@ public class ChengyuService extends MyBaseService<Chengyu> implements ProxySelf<
     public void init(){
         //这里可能会有数据过大内存放不下的问题，如果出现需要做分页
         List<Chengyu> chengyuList = mapper.selectAll();
-        self().initChengyuCache(chengyuList);
-        self().initChengyuInitialCache(chengyuList);
+/*        self().initChengyuCache(chengyuList);
+        self().initChengyuInitialCache(chengyuList);*/
+        initChengyuCache(chengyuList);
+        initChengyuInitialCache(chengyuList);
     };
 
     private void recordScore(ChengyuScore score){
@@ -392,7 +394,12 @@ public class ChengyuService extends MyBaseService<Chengyu> implements ProxySelf<
 
     @Async
     public void initChengyuCache(List<Chengyu> chengyuList){
-        chengyuList.parallelStream().forEach(chengyu -> initChengyuCache(chengyu));
+        Map<String, Chengyu> map = new HashMap<>();
+        for (Chengyu chengyu : chengyuList) {
+            String cacheKey = String.format(REDIS_CHENGYU_KEY, chengyu.getChengyu());
+            map.put(cacheKey, chengyu);
+        }
+        redisTemplate.opsForValue().multiSet(map);
     }
 
     public void initChengyuCache(Chengyu chengyu){
